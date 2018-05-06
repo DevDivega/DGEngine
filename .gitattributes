@@ -1,0 +1,82 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+# Visual Studio files
+
+*.sln             text eol=crlf diff merge
+*.vcxproj         text eol=crlf diff -merge
+*.vcproj          text eol=crlf diff -merge
+*.xproj           text eol=crlf diff -merge
+*.props           text eol=crlf diff -merge
+*.filters         text eol=crlf diff -merge
+*.vcxitems        text eol=crlf diff -merge
+
+# C++ Files
+*.c               text diff=cpp
+*.cc              text diff=cpp
+*.cxx             text diff=cpp
+*.cpp             text diff=cpp
+*.c++             text diff=cpp
+*.hpp             text diff=cpp
+*.h               text diff=cpp
+*.h++             text diff=cpp
+*.hh              text diff=cpp
+
+# Compiled Object files
+*.slo             binary
+*.lo              binary
+*.o               binary
+*.obj             binary
+
+# Precompiled Headers
+*.gch             binary
+*.pch             binary
+
+# Compiled Dynamic libraries
+*.so              binary
+*.dylib           binary
+*.dll             binary
+
+# Compiled Static libraries
+*.lai             binary
+*.la              binary
+*.a               binary
+*.lib             binary
+
+# Executables
+*.exe             binary
+*.out             binary
+*.app             binary
+
+# Graphics
+*.png             binary
+*.jpg             binary
+*.jpeg            binary
+*.gif             binary
+*.tif             binary
+*.tiff            binary
+*.ico             binary
+
+# Model files
+*.obj             text diff -merge
+*.mtl             text diff -merge
+
+# Shader program source
+*.frag            text diff=cpp
+*.vert            text diff=cpp
+
+# Text files and documentation
+*.txt             text
+README*           text
+INSTALL*          text
+LICENSE*          text
+
+# XML and configuration
+*.xml             text
+*.cfg             text
+
+# Self-reference
+.gitignore        text
+.gitattributes    text
